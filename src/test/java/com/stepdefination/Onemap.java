@@ -23,7 +23,7 @@ public class Onemap {
 	}
 	
 	
-	@When("The user provide valid details")
+	/*@When("The user provide valid details")
 	public void the_user_provide_valid_details(io.cucumber.datatable.DataTable cust) {
 		Map<String,String> onedmap=cust.asMap(String.class, String.class);
 		   System.out.println(onedmap);
@@ -35,7 +35,7 @@ public class Onemap {
 		   Hooks.driver.findElement(By.name("addr")).sendKeys(onedmap.get("fname"));
 		   Hooks.driver.findElement(By.name("telephoneno")).sendKeys(onedmap.get("fname"));
 		   Hooks.driver.findElement(By.xpath("//input[@type='submit']")).click();
-	}
+	}*/
 	
 
 /*
@@ -55,23 +55,23 @@ public class Onemap {
 	}
 
 */	
-/*	
+	
 	////////////Twodementional list
 	@When("The user provide valid details")
 	public void the_user_provide_valid_details(io.cucumber.datatable.DataTable cust) {
 		List<List<String>> Twodlist=cust.asLists(String.class);
 		   System.out.println(Twodlist);
 		   System.out.println("When-1");
-		    driver.findElement(By.xpath("//label[@for='done']")).click();
-		    driver.findElement(By.id("fname")).sendKeys(Twodlist.get(0).get(0));
-		    driver.findElement(By.id("lname")).sendKeys(Twodlist.get(0).get(1));
-		    driver.findElement(By.id("email")).sendKeys(Twodlist.get(0).get(2));
-		    driver.findElement(By.name("addr")).sendKeys(Twodlist.get(0).get(3));
-		    driver.findElement(By.name("telephoneno")).sendKeys(Twodlist.get(2).get(4));
-	        driver.findElement(By.xpath("//input[@type='submit']")).click();
+		   Hooks.driver.findElement(By.xpath("//label[@for='done']")).click();
+		   Hooks.driver.findElement(By.id("fname")).sendKeys(Twodlist.get(0).get(0));
+		   Hooks.driver.findElement(By.id("lname")).sendKeys(Twodlist.get(0).get(1));
+		   Hooks.driver.findElement(By.id("email")).sendKeys(Twodlist.get(0).get(2));
+		   Hooks.driver.findElement(By.name("addr")).sendKeys(Twodlist.get(0).get(3));
+		   Hooks.driver.findElement(By.name("telephoneno")).sendKeys(Twodlist.get(2).get(4));
+		   Hooks.driver.findElement(By.xpath("//input[@type='submit']")).click();
 	}
 
-	*/
+	
 	
 /*	
 	/////Twodmap

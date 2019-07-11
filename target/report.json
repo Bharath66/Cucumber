@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4827090900,
+              "duration": 4240689200,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 693759900,
+              "duration": 677051800,
               "status": "passed"
             },
             "match": {
@@ -34,115 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7887084200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user is in telecom home page",
-            "match": {
-              "location": "Add.the_user_is_in_telecom_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1172070000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The user click on add customer",
-            "match": {
-              "location": "Add.the_user_click_on_add_customer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 663786800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "The user is filling all the details",
-            "match": {
-              "location": "Add.the_user_is_filling_all_the_details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1703781800,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "The user click on submitt button",
-            "match": {
-              "location": "Add.the_user_click_on_submitt_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83990400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "The user should be displayed id",
-            "match": {
-              "location": "Add.the_user_should_be_displayed_id()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag1"
-          }
-        ]
-      }
-    ],
-    "name": "Title of your feature",
-    "description": "  I want to use this template for my feature file",
-    "id": "title-of-your-feature",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/New.feature",
-    "tags": []
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2496984000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Title of your scenario",
-        "description": "",
-        "id": "title-of-your-feature;title-of-your-scenario",
-        "after": [
-          {
-            "result": {
-              "duration": 2915416500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 7349858800,
+              "duration": 6183551100,
               "status": "passed"
             },
             "line": 7,
@@ -154,9 +46,8 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.datatable.CucumberDataTableException: Can\u0027t convert DataTable to Map\u003cjava.lang.String, java.lang.String\u003e. There is more then one value per key. Did you mean to transform to Map\u003cjava.lang.String, List\u003cjava.lang.String\u003e\u003e instead?\r\n\tat io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:25)\r\n\tat io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:42)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:212)\r\n\tat io.cucumber.datatable.DataTable.asMap(DataTable.java:232)\r\n\tat com.stepdefination.Onemap.the_user_provide_valid_details(Onemap.java:28)\r\n\tat ✽.The user provide valid details(src/test/resources/features/Onedlist.feature:8)\r\n",
-              "duration": 3961500,
-              "status": "failed"
+              "duration": 2309270400,
+              "status": "passed"
             },
             "line": 8,
             "name": "The user provide valid details",
@@ -205,8 +96,8 @@
           },
           {
             "result": {
-              "duration": 13900,
-              "status": "skipped"
+              "duration": 111253200,
+              "status": "passed"
             },
             "line": 13,
             "name": "The user validate customer id is generated",
@@ -230,124 +121,7 @@
     "description": "  I want to use this template for my feature file",
     "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/Onedlist.feature",
-    "tags": [
-      {
-        "name": "@tag",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2724397400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Title of your scenario",
-        "description": "",
-        "id": "title-of-your-feature;title-of-your-scenario",
-        "after": [
-          {
-            "result": {
-              "duration": 2903804000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.method1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 7665282200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The user should be telecom home page and click the add customer",
-            "match": {
-              "location": "Onemap.the_user_should_be_telecom_home_page_and_click_the_add_customer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "io.cucumber.datatable.CucumberDataTableException: Can\u0027t convert DataTable to Map\u003cjava.lang.String, java.lang.String\u003e. There is more then one value per key. Did you mean to transform to Map\u003cjava.lang.String, List\u003cjava.lang.String\u003e\u003e instead?\r\n\tat io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:25)\r\n\tat io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:42)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:212)\r\n\tat io.cucumber.datatable.DataTable.asMap(DataTable.java:232)\r\n\tat com.stepdefination.Onemap.the_user_provide_valid_details(Onemap.java:28)\r\n\tat ✽.The user provide valid details(src/test/resources/features/Twodmap.feature:8)\r\n",
-              "duration": 582300,
-              "status": "failed"
-            },
-            "line": 8,
-            "name": "The user provide valid details",
-            "match": {
-              "location": "Onemap.the_user_provide_valid_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "fname",
-                  "lname",
-                  "gmail",
-                  "Address",
-                  "phone"
-                ]
-              },
-              {
-                "cells": [
-                  "Bharath",
-                  "kumar",
-                  "bharat@gmail.com",
-                  "Chennai",
-                  "7013635423"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 11000,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "The user validate customer id is generated",
-            "match": {
-              "location": "Onemap.the_user_validate_customer_id_is_generated()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          },
-          {
-            "name": "@tag1"
-          }
-        ]
-      }
-    ],
-    "name": "Title of your feature",
-    "description": "  I want to use this template for my feature file",
-    "id": "title-of-your-feature",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/Twodmap.feature",
+    "uri": "C:/Users/Bharath Koye/eclipse-workspace/cucumber/src/test/resources/features/Onedlist.feature",
     "tags": [
       {
         "name": "@tag",
