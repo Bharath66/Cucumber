@@ -1,4 +1,76 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Onedlist.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/New.feature");
+formatter.feature({
+  "name": "Title of your feature",
+  "description": "  I want to use this template for my feature file",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Title of your scenario",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user is in telecom home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Add.the_user_is_in_telecom_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user click on add customer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Add.the_user_click_on_add_customer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user is filling all the details",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Add.the_user_is_filling_all_the_details()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user click on submitt button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Add.the_user_click_on_submitt_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The user should be displayed id",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Add.the_user_should_be_displayed_id()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("src/test/resources/features/Onedlist.feature");
 formatter.feature({
   "name": "Title of your feature",
   "description": "  I want to use this template for my feature file",
