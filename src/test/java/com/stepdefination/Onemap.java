@@ -8,11 +8,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.cucumber.Base;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Onemap {
+public class Onemap extends Base{
 	
 	@Given("The user should be telecom home page and click the add customer")
 	public void the_user_should_be_telecom_home_page_and_click_the_add_customer() {

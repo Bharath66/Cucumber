@@ -2,13 +2,15 @@ package com.objecRepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.cucumber.Base;
+import com.stepdefination.Hooks;
 
 public class AddCustmer extends Base{
-	/*public AddCustmer() {
-		PageFactory.initElements(driver, this);
-	}*/
+	public AddCustmer() {
+		PageFactory.initElements(getDriver(), this);
+	}
 	
 	@FindBy(xpath="(//a[text()='Add Customer'])[1]")
 	public WebElement addCust;
