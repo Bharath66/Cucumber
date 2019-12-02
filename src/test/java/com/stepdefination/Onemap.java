@@ -14,15 +14,15 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Onemap extends Base{
+//public class Onemap {
 	
-	@Given("The user should be telecom home page and click the add customer")
+	/*@Given("The user should be telecom home page and click the add customer")
 	public void the_user_should_be_telecom_home_page_and_click_the_add_customer() {
 		System.out.println("Given-1");
 		
 		Hooks.driver.get("http://demo.guru99.com/telecom/");
 		Hooks.driver.findElement(By.xpath("(//a[text()='Add Customer'])[1]")).click();
-	}
+	}*/
 	
 	
 	/*@When("The user provide valid details")
@@ -59,7 +59,7 @@ public class Onemap extends Base{
 */	
 	
 	////////////Twodementional list
-	@When("The user provide valid details")
+	/*@When("The user provide valid details")
 	public void the_user_provide_valid_details(io.cucumber.datatable.DataTable cust) {
 		List<List<String>> Twodlist=cust.asLists(String.class);
 		   System.out.println(Twodlist);
@@ -71,7 +71,7 @@ public class Onemap extends Base{
 		   Hooks.driver.findElement(By.name("addr")).sendKeys(Twodlist.get(0).get(3));
 		   Hooks.driver.findElement(By.name("telephoneno")).sendKeys(Twodlist.get(2).get(4));
 		   Hooks.driver.findElement(By.xpath("//input[@type='submit']")).click();
-	}
+	}*/
 
 	
 	
@@ -92,10 +92,10 @@ public class Onemap extends Base{
 	}
 	*/
 	
-	@Then("The user validate customer id is generated")
+	/*@Then("The user validate customer id is generated")
 	public void the_user_validate_customer_id_is_generated() {
 	    System.out.println("Then-1");
 	    Assert.assertTrue(Hooks.driver.findElement(By.xpath("//h1[text()='Access Details to Guru99 Telecom']")).isDisplayed());
-	}
+	}*/
 
-}
+//}

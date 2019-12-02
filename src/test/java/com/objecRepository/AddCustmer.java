@@ -9,7 +9,7 @@ import com.stepdefination.Hooks;
 
 public class AddCustmer extends Base{
 	public AddCustmer() {
-		PageFactory.initElements(getDriver(), this);
+		PageFactory.initElements(Hooks.driver, this);
 	}
 	
 	@FindBy(xpath="(//a[text()='Add Customer'])[1]")
